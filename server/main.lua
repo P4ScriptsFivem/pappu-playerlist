@@ -1,7 +1,7 @@
 local QBCore = exports[Config.Core]:GetCoreObject()
 local PlayerList = {}
 
-local discordWebhook = "https://discord.com/api/webhooks/1312400034104475740/4yem-2qwtNxYkwl08cigsVMKwuP_U5b2fTQKrL0xFEVF3SDj0RV2L6bj9oW-IUQ4UiW8"
+local discordWebhook = "https://discord.com/api/webhooks/"
 
 local function Debug(a, b)
     if Config.Debug then
