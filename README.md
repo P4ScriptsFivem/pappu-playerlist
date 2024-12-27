@@ -3,6 +3,7 @@ Pappu PlayerList is a customizable and lightweight player list for FiveM servers
 
 
 ## Features
+- New: Ability Discord webhook in server/main.lua - 4 Line
 - Maximum Players: Automatically fetches the maximum players from server settings (sv_maxclients).
 - Identifiers: Display different identifiers like citizenid, steam, or license.
 - Character Name Display: Show character names instead of identifiers.
