@@ -16,7 +16,7 @@ Config.CloseInstantly = false  -- If false, scoreboard stays open only when Open
 
 -- Player Settings
 Config.MaxPlayers = GetConvarInt('sv_maxclients', 10)  -- Max players, default is 10 if Convar is not found
-Config.UseIdentifier = "citizenid"  -- Identifier to use for the scoreboard, e.g., "steam", "license" (defaults to citizenid if not found)
+Config.UseIdentifier = "name"  -- Identifier to use for the scoreboard, e.g., "steam", "license", "name" (defaults to citizenid if not found)
 
 -- UI Settings
 Config.EnableCharacterName = true  -- Show character name in the scoreboard instead of identifiers

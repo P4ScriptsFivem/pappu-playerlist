@@ -49,7 +49,12 @@ end
 local function AddPlayer(source)
     local player = QBCore.Functions.GetPlayer(source)
     if player then
-        local identifier = player.PlayerData[Config.UseIdentifier] or player.PlayerData.steam
+        local identifier
+        if Config.UseIdentifier == "name" then
+            identifier = player.PlayerData.charinfo.firstname .. " " .. player.PlayerData.charinfo.lastname
+        else
+            identifier = player.PlayerData[Config.UseIdentifier] or player.PlayerData.steam
+        end
         local discordTag = GetDiscordTag(source)
         local citizenId = player.PlayerData.citizenid
         local license = player.PlayerData.license
