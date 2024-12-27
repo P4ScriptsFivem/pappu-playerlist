@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+@import url(https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap);
+
+/* Main CSS */
+
+.playerlist {
+  height: 100vh;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  /* font-weight: 700;   */
+}
+
+.playerlist-toggle {
+  display: none;
+  position: absolute;
+  height: 85.75vh;
+  width: 40vh;
+  /* background-color: rgba(0, 0, 0, 0.548); */
+  background: radial-gradient(50% 50% at 50% 50%, rgba(16, 21, 36, 0.508) 0, rgba(20, 22, 36, 0.801) 100%) !important;
+  border: 1px solid rgba(0, 0, 0, .15);
+  box-sizing: border-box;
+  box-shadow: 0 2px 21px rgba(0, 0, 0, 0.685);
+  border-radius: 3px;
+  right: 6vh;
+  top: 8vh;
+
+  overflow: hidden;
+  margin: 1vh;
+}
+
+.playerlist-header {
+  position: relative;
+  left: 2%;
+  top: 1.5%;
+  text-align: center;
+  font-weight: bold;
+  color: #ededed;
+  padding: 1.3vh;
+  font-family: "Oswald", sans-serif;
+  font-size: 2.5vh;
+  /* height: 5vh; */
+  background: #0d0d0d00;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.7), 
+  0 0 10px rgba(255, 255, 255, 0.5),
+  0 0 15px rgba(255, 255, 255, 0.3);
+
+}
+
+
+.playerlist-info {
+  overflow-y: scroll;
+  height: 88%;
+}
+
+.playerlist-info::-webkit-scrollbar {
+  display: block;
+  background: transparent;
+  width: 8px;
+}
+
+.playerlist-info::-webkit-scrollbar-thumb {
+  display: block;
+  background: #0066ff79;
+}
+
+.playerlist-info-count {
+  position: relative;
+  height: 4.25vh;
+  width: 100%;
+}
+
+.data-value-count {
+  position: absolute;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.3vh;
+  /* font-family: "Poppins", sans-serif; */
+  right: 3vh;
+  float: left;
+  text-align: left;
+  line-height: 4.25vh;
+}
+
+.playerlist-data {
+  position: relative;
+  height: 3.55vh;
+  width: 100%;
+}
+
+.data-title {
+  position: absolute;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.3vh;
+  letter-spacing: 0.1vh;
+  left: 2.7vh;
+  line-height: 4vh;
+  /* font-weight: bold; */
+  color: #ededed;
+  /* text-shadow:0px 0px 5px #ededed;  */
+}
+
+.data-title:hover {
+  color: #0066ff79;
+  text-shadow: 0px 0px 5px #0066ff79;
+}
+
+.data-title-players {
+  position: absolute;
+  font-family: "Oswald", sans-serif;
+
+  /* font-family: "Poppins", sans-serif; */
+  font-size: 1.3vh;
+  letter-spacing: 0.1vh;
+  left: 2.4vh;
+  line-height: 4vh;
+  /* font-weight: bold; */
+  color: #ededed;
+  /* text-shadow:0px 0px 5px #ededed; */
+}
+
+.data-value {
+  position: absolute;
+  font-family: "Oswald", sans-serif;
+  right: 3vh;
+  float: left;
+  text-align: left;
+  line-height: 4.25vh;
+}
